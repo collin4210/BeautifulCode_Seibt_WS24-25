@@ -9,7 +9,7 @@ fun main() {
 
 }
 
-class User(var username: String, var password: String, var adress: String, var dateofBirth: String) {
+class User(var username: String, var password: String, var address: String, var dateofbirth: String) {
 
     private var shoppingCart: MutableList<String> = TODO()
 
@@ -27,7 +27,7 @@ class User(var username: String, var password: String, var adress: String, var d
 
 }
 
-class book(private var title: String, private var ageRestriction: String, private var releaseDate: String) {
+class Book(private var title: String, private var ageRestriction: String, private var releaseDate: String) {
     fun getTitle() : String {
 
         return title
@@ -46,7 +46,7 @@ class book(private var title: String, private var ageRestriction: String, privat
 
 }
 
-class movie(private var title: String, private var ageRestriction: String, private var releaseDate: String) {
+class Movie(private var title: String, private var ageRestriction: String, private var releaseDate: String) {
     fun getTitle() : String {
 
         return title
@@ -65,7 +65,7 @@ class movie(private var title: String, private var ageRestriction: String, priva
 
 }
 
-class merchandise(private var title: String, private var ageRestriction: String, private var releaseDate: String) {
+class Merchandise(private var title: String, private var ageRestriction: String, private var releaseDate: String) {
     fun getTitle() : String {
 
         return title
