@@ -5,6 +5,8 @@ Dieser Code stellt versimpelt einen Versandhandel dar. Der Benutzer hat eine Sho
 ## Aufgabe1
 
 Die einzelnen Variablen sollen den Idealen Typen haben um Erweiterungen der Software zu ermöglichen und Fehler zu vermeiden.
+Ist es Sinnvoll eigene Typen zu erstellen (Data Class / Enum)?
+
 
 ## Aufgabe2
 
